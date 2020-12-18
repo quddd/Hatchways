@@ -1,0 +1,24 @@
+{
+  "name": "hatchways-challenge",
+  "version": "1.0.0",
+  "description": "A simple backend app submission for HatchWays interview assesment",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha || true",
+    "start": "nodemon app.js"
+  },
+  "author": "Qudus Agbalaya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
